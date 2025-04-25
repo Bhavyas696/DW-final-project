@@ -1,0 +1,165 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dragon Wok Restaurant</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #1a0000;
+      color: #fff;
+    }
+    .navbar {
+      background-color: #800000;
+    }
+    .navbar-brand, .nav-link {
+      color: gold !important;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1543353071-873f17a7a088') no-repeat center center/cover;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-shadow: 2px 2px 4px #000;
+    }
+    h2 {
+      color: gold;
+    }
+    .menu-card {
+      background-color: #330000;
+      border: 1px solid gold;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      color: white;
+    }
+    .footer {
+      background-color: black;
+      color: gold;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Dragon Wok</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>  <header class="hero text-center text-white">
+    <h1 class="display-4">Welcome to Dragon Wok</h1>
+    <p class="lead">Premium Chinese Cuisine. Straight from the Wok to your plate.</p>
+  </header>  <section id="menu" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Our Menu</h2>
+      <div class="row">
+        <!-- Starters -->
+        <h3 class="text-warning">Starters</h3>
+        <div class="col-md-4 menu-card">Crispy Chilli Potato - ₹230</div>
+        <div class="col-md-4 menu-card">Honey Chilli Potato - ₹230</div>
+        <div class="col-md-4 menu-card">Salt & Pepper Potato - ₹230</div>
+        <div class="col-md-4 menu-card">Veg Spring Rolls - ₹250</div>
+        <div class="col-md-4 menu-card">Chilli Mushroom Dry - ₹300</div>
+        <div class="col-md-4 menu-card">Veg Manchurian Dry - ₹300</div>
+        <div class="col-md-4 menu-card">Chilli Paneer - ₹300</div>
+        <div class="col-md-4 menu-card">Crispy Chilli Corn - ₹300</div>
+        <div class="col-md-4 menu-card">Crispy Corn Salt & Pepper - ₹300</div><!-- Soups -->
+    <h3 class="text-warning mt-5">Soups</h3>
+    <div class="col-md-4 menu-card">Clear Soup - ₹170</div>
+    <div class="col-md-4 menu-card">Hot & Sour Soup - ₹170</div>
+    <div class="col-md-4 menu-card">Sweet Corn Soup - ₹170</div>
+    <div class="col-md-4 menu-card">Manchow Soup - ₹170</div>
+    <div class="col-md-4 menu-card">Tom Yum Soup - ₹170</div>
+    <div class="col-md-4 menu-card">Thukpa Momo Soup - ₹230</div>
+
+    <!-- Momos -->
+    <h3 class="text-warning mt-5">Momos</h3>
+    <div class="col-md-4 menu-card">Cheese & Corn Momos - ₹220</div>
+    <div class="col-md-4 menu-card">Steamed Paneer Momos - ₹220</div>
+    <div class="col-md-4 menu-card">Paneer Schezwan Momos - ₹220</div>
+    <div class="col-md-4 menu-card">Fried Paneer Momos - ₹230</div>
+    <div class="col-md-4 menu-card">Wheat Momos - ₹220</div>
+    <div class="col-md-4 menu-card">Steamed Momos - ₹200</div>
+    <div class="col-md-4 menu-card">Schezwan Momos - ₹200</div>
+    <div class="col-md-4 menu-card">Fried Momos - ₹220</div>
+    <div class="col-md-4 menu-card">Pan Fried Momos - ₹220</div>
+    <div class="col-md-4 menu-card">Momos In Hot Garlic Sauce - ₹230</div>
+
+    <!-- Wok Box -->
+    <h3 class="text-warning mt-5">All Time Favourite Wok Box</h3>
+    <div class="col-md-4 menu-card">Chilli Paneer with Noodles/Rice - ₹300</div>
+    <div class="col-md-4 menu-card">Vegetable in Hot Garlic Sauce with Noodles/Rice - ₹300</div>
+    <div class="col-md-4 menu-card">Vegetable Manchurian with Noodles/Rice - ₹300</div>
+    <div class="col-md-4 menu-card">Vegetable in Kung Pao Sauce with Noodles/Rice - ₹300</div>
+    <div class="col-md-4 menu-card">Chilli Chicken with Noodles/Rice - ₹340</div>
+    <div class="col-md-4 menu-card">Chicken Manchurian with Noodles/Rice - ₹340</div>
+    <div class="col-md-4 menu-card">Chicken in Hot Garlic Sauce with Noodles/Rice - ₹340</div>
+    <div class="col-md-4 menu-card">Chicken in Kung Pao Sauce - ₹340</div>
+
+    <!-- Noodles -->
+    <h3 class="text-warning mt-5">Noodles</h3>
+    <div class="col-md-4 menu-card">Hakka Noodles - ₹240</div>
+    <div class="col-md-4 menu-card">Chilli Garlic Noodles - ₹240</div>
+    <div class="col-md-4 menu-card">Butter Garlic Noodles - ₹240</div>
+    <div class="col-md-4 menu-card">Hawker Style Chowmein - ₹240</div>
+    <div class="col-md-4 menu-card">Butter Pepper Garlic Noodles - ₹240</div>
+    <div class="col-md-4 menu-card">Pan Fried Noodles - ₹300</div>
+    <div class="col-md-4 menu-card">American Chop Suey - ₹350</div>
+
+    <!-- Rice & Gravy -->
+    <h3 class="text-warning mt-5">Rice & Gravy</h3>
+    <div class="col-md-4 menu-card">Steamed Rice - ₹220</div>
+    <div class="col-md-4 menu-card">Fried Rice - ₹240</div>
+    <div class="col-md-4 menu-card">Butter Garlic Fried Rice - ₹240</div>
+    <div class="col-md-4 menu-card">Vegetable Hot Garlic Sauce - ₹340</div>
+    <div class="col-md-4 menu-card">Vegetable Manchurian Gravy - ₹340</div>
+    <div class="col-md-4 menu-card">Chilli Paneer Gravy - ₹340</div>
+    <div class="col-md-4 menu-card">Kung Pao Vegetable Gravy - ₹340</div>
+    <div class="col-md-4 menu-card">Schezwan Vegetable Gravy - ₹340</div>
+    <div class="col-md-4 menu-card">Stir Fried Asian Greens - ₹340</div>
+    <div class="col-md-4 menu-card">Chicken Manchurian Gravy - ₹390</div>
+    <div class="col-md-4 menu-card">Chilli Chicken Gravy - ₹390</div>
+    <div class="col-md-4 menu-card">Chicken in Black Pepper Sauce - ₹390</div>
+  </div>
+</div>
+
+  </section>  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">About Us</h2>
+      <p class="text-center">Dragon Wok serves handcrafted, wok-fried Chinese cuisine in a premium setting. From fiery gravies to comforting noodles, each dish is made fresh with bold spices and rich heritage flavors. Visit us at Shop No. 9, Ground Floor, Pocket-B, LSC.</p>
+    </div>
+  </section>  <section id="contact" class="py-5 bg-black text-white">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Us</h2>
+      <form class="mx-auto" style="max-width: 600px">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-warning">Send Message</button>
+      </form>
+    </div>
+  </section>  <footer class="footer text-center py-3">
+    <p>&copy; 2025 Dragon Wok Restaurant. Designed with flavor and love.</p>
+  </footer>  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script></body>
+</html>
